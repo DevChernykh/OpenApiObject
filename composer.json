@@ -1,0 +1,21 @@
+{
+    "name": "chernykh/open-api-object",
+    "type": "library",
+    "require": {
+        "php": ">=8.2",
+        "ramsey/collection": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Chernykh\\OpenApiObject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Черных Никита",
+            "email": "devchernykh@ya.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
