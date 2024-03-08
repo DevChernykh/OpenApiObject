@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Chernykh\OpenApiObject\Support;
+namespace Chernykh\OpenApiObject\Part;
 
 abstract class MIME
 {

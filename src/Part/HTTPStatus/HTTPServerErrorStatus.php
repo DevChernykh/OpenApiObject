@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Chernykh\OpenApiObject\Support\HTTPStatus;
+namespace Chernykh\OpenApiObject\Part\HTTPStatus;
 
-use Chernykh\OpenApiObject\Support\HTTPStatus;
+use Chernykh\OpenApiObject\Part\HTTPStatus;
 
 class HTTPServerErrorStatus extends HTTPStatus
 {
