@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Chernykh\OpenApiObject\Part;
 
-class RichText
+readonly class RichText
 {
     public function __construct(
         private string $value,
@@ -12,6 +12,11 @@ class RichText
     }
 
     public function getValue(): string
+    {
+        return $this->value;
+    }
+
+    public function __toString(): string
     {
         return $this->value;
     }
